@@ -1,0 +1,57 @@
+body{
+  background-color: #2FADFC;
+}
+header{
+  text-align: center;
+}
+h1 {
+  font-family: "Helvetica";
+}
+
+h2{
+  font-family: "Helvetica";
+}
+
+div{
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  width: 80%;
+  margin-top: 50px;
+}
+
+li{
+  list-style: none;
+  font-family: "Helvetica";
+  font-size: 25px;
+  color: black;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+  color: #2FADFC;
+}
+.nav{
+    border:1px solid #ccc;
+    border-width:5px 0;
+    border-color: white;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display: inline-block;
+    padding: 50px;
+    font-family: "Helvetica";
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
